@@ -1,0 +1,87 @@
+.comment-container{
+  width: 95vw;
+  height: 20vh;
+  margin: .5rem auto;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1PX solid #BDBDBD;
+  .comment-img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: #ECC270;
+    margin-top: 4vh;
+  }
+  .comment-con-wrapper{
+    width: 70vw;
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4vh;
+    .comment-name{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 4vh;
+      font-weight: bold;
+      .more-wrapper{
+        width: 6vw;
+        height: 100%;
+        position: relative;
+        .more{
+          width: 6vw;
+          height: 100%;
+        }
+        .more-item{
+          width: 10vw;
+          height: 1.5rem;
+          display: none;
+          font-size: 10PX;
+          color: #FFFFFF;
+          position: absolute;
+          border-radius: .2rem;
+          text-align: center;
+          line-height: 1.5rem;
+        }
+        &:hover .more-item{
+          display: block;
+          background: #BDBDBD;
+        }
+      }
+    }
+    .comment-time{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 4vh;
+      font-size: 13PX;
+      color: #BDBDBD;
+      .like{
+        width: 10vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        .zan{
+          width: 1rem;
+          height: 1rem;
+        }
+      }
+    }
+    .comment-con{
+      width: 64vw;
+      height: 5vh;
+      font-size: 15PX;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+.comment-end{
+  width: 100%;
+  height: 4vh;
+  text-align: center;
+  font-size: 12PX;
+  color: #BDBDBD;
+}

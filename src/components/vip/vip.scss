@@ -1,0 +1,28 @@
+.vip-container{
+  width: 95%;
+  height: 2.5rem;
+  margin: 1rem auto;
+  border-radius: 0.4rem;
+  font-size: 14PX;
+  line-height: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  color: #5B3B1F;
+  background-image: linear-gradient(to right, #F1E4C4, #ECC270);
+  .vip-access{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    .vip-img{
+      width: .8rem;
+      height: .5rem;
+      margin: auto 0;
+    }
+  }
+  .vip-text{
+    width: 78%;
+    height: 100%;
+    display: flex;
+  }
+}

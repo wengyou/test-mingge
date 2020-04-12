@@ -1,0 +1,126 @@
+.detail-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .detail-img{
+    width: 100%;
+    height: 12rem;
+  }
+  .detail-title{
+    font-size: 20PX;
+    font-weight: bold;
+    margin: 1rem auto;
+  }
+  .detail-wrapper{
+    display: flex;
+    width: 80vw;
+    height: 1.8rem;
+    background: #DCDCDC;
+    opacity: 0.6;
+    margin: 0 auto;
+    border-radius: .2rem;
+    .detail-item{
+      width: 33.3%;
+      height: 100%;
+      line-height: 2rem;
+      text-align: center;
+      font-size: 12PX;
+    }
+    .line{
+      border-right: 1PX solid #BDBDBD;
+      border-left: 1PX solid #BDBDBD;
+    }
+  }
+  .detail-content{
+    width: 80vw;
+    height: 14vh;
+    font-size: 12PX;
+    margin: .8rem auto;
+  }
+  .tag-wrapper{
+    width: 80vw;
+    height: 2rem;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    .tag-item{
+      width: 21vw;
+      height: 65%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 13PX;
+      color: #BDBDBD;
+      margin: auto 0;
+    }
+    .green-tag{
+      width: 1rem;
+      height: 1rem;
+    }
+    .right{
+      margin-left: .8rem;
+    }
+  }
+  .test-btn{
+    width: 80vw;
+    height: 2.6rem;
+    margin: 0 auto;
+    font-size: 18PX;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 2.6rem;
+    background: #3CB371;
+    border-radius: .3rem;
+  }
+  .test-btn-purchase{
+    width: 80vw;
+    height: 8vh;
+    margin: 0 auto;
+    font-size: 18PX;
+    color: #5B3B1F;
+    text-align: center;
+    line-height: 8vh;
+    background-image: linear-gradient(to right, #F1E4C4, #ECC270);
+    border-radius: .3rem;
+  }
+  .divide-line{
+    width: 100%;
+    height: 4PX;
+    background: #DCDCDC;
+    margin-top: 2rem;
+  }
+}
+.text-con{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  .wrapper{
+    width: 95%;
+    height: 2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .title,.cancel{
+      width: 4rem;
+      height: 1.8rem;
+      border-radius: .2rem;
+      background: #3CB371;
+      text-align: center;
+      line-height: 1.8rem;
+      color: #FFFFFF;
+    }
+    .cancel{
+      background: #DCDCDC;
+    }
+  }
+  .text-input{
+    margin-top: 1rem;
+    border: none;
+  }
+}
+.hide{
+  display: none;
+}

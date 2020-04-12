@@ -1,0 +1,32 @@
+.footer-container{
+  width: 100vw;
+  height: 3.5rem;
+  position: fixed;
+  bottom: 0;
+  background: #FFFFFF;
+  border-top: 1PX solid #F8F8F8;
+  .footer-wrapper{
+    width: 90%;
+    height: 85%;
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: space-between;
+    .footer-tab{
+      width: 2rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: 10PX;
+      text-align: center;
+      .footer-img{
+        width: 2rem;
+        height: 2rem;
+      }
+      .current-text{
+        color: #F8CE5E;
+      }
+    }
+  }
+
+}

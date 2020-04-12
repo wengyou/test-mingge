@@ -1,0 +1,19 @@
+.index {
+  flex-direction: column;
+  width: 100%;
+}
+.index-test{
+  width: 95vw;
+  height: 1.5rem;
+  display: flex;
+  margin: 1rem auto;
+  .index-line{
+    width: .2rem;
+    height: 100%;
+    background: #F8CE5E;
+  }
+  .index-catalog{
+    color: #F8CE5E;
+    padding-left: .5rem;
+  }
+}

@@ -1,0 +1,75 @@
+.result-container{
+  width: 95vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .result-title{
+    font-size: 18PX;
+    width: 100%;
+    height: 5vh;
+  }
+  .result-star{
+    font-size: 12PX;
+    color: #BDBDBD;
+    .num{
+      padding-left: 2vw;
+    }
+  }
+  .result-con{
+    width: 100%;
+    height: 10vh;
+    font-size: 24PX;
+    color: 	#DC143C;
+    border-bottom: 1PX solid #DCDCDC;
+  }
+  .result-analyse{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    font-size: 14PX;
+    justify-content: space-between;
+    flex-direction: column;
+    .analyse-title{
+      font-size: 12PX;
+      font-weight: bold;
+      color: dimgrey;
+    }
+    .analyse-con{
+      width: 100%;
+      height: 25vh;
+    }
+  }
+  .result-btn{
+    width: 97vw;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1vw;
+    .share-btn, .more-test-btn{
+      font-size: 18PX;
+      width: 48%;
+      height: 9vh;
+      background: #3CB371;
+      border-radius: .3rem;
+      color: #FFFFFF;
+      line-height: 9vh;
+      text-align: center;
+      border: none;
+    }
+  }
+  .all-test-btn{
+    width: 100%;
+    height: 9vh;
+    background: #DCDCDC;
+    border-radius: .3rem;
+    text-align: center;
+    line-height: 9vh;
+  }
+  .adv{
+    width: 100%;
+    height: 100PX;
+    background: #F8CE5E;
+  }
+}

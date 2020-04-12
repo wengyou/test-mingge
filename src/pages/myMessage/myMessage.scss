@@ -1,0 +1,41 @@
+.myMessage-title{
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+}
+.myMessage-lists{
+  width: 95vw;
+  min-height: 95vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  .myMessage-item{
+    width: 100%;
+    height: 20vh;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: .3rem;
+    .mes-icon{
+      width: 1.5rem;
+      height: 2rem;
+      margin-left: .5rem;
+    }
+    .myMessage-con{
+      width: 95%;
+      margin: 0 auto;
+      word-wrap:break-word;
+      overflow: scroll;
+      font-size: 16PX;
+      color: dimgrey;
+    }
+    .myMessage-time{
+      width: 95%;
+      margin: 0 auto;
+      color: #DCDCDC;
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.eval-container{
+  width: 95%;
+  margin: .5rem auto;
+  .eval-wrapper{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    .eval-title{
+      width: 5rem;
+      height: 1.8rem;
+      font-size: 18PX;
+      font-weight: bold;
+      line-height: 1.8rem;
+      border-right: 6PX solid #F8CE5E;
+    }
+    .eval-write{
+      width: 5rem;
+      height: 2.2rem;
+      color: #FFFFFF;
+      background: #3CB371;
+      border-radius: .3rem;
+      position: absolute;
+      right: 0;
+      text-align: center;
+      line-height: 2.2rem;
+    }
+  }
+  .eval-content-wrapper{
+    width: 100%;
+    .comment-none{
+      font-size: 16PX;
+      color: #BDBDBD;
+      height: 10vh;
+      width: 100%;
+    }
+  }
+}

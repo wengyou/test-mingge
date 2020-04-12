@@ -1,0 +1,85 @@
+.vipDetail-container{
+  width: 95vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .vipDetail-img{
+    width: 100%;
+    height: 20vh;
+    border-radius: .5rem;
+  }
+  .privilege-title{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 16PX;
+    line-height: 6vh;
+    .privilege-line{
+      width: 2vw;
+      height: 100%;
+      background-color: #ECC270;
+    }
+  }
+  .privilege-con-container{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 5vw;
+    .privilege-item{
+      width: 100%;
+      height: 16vh;
+      display: flex;
+      justify-content: space-between;
+      .img-wrapper{
+        width: 2rem;
+        height: 2rem;
+        background-color: black;
+        border-radius: 50%;
+        margin: 0 1rem;
+        .privilege-img{
+          width: 1.5rem;
+          height: 1.5rem;
+          padding: 0.25rem 0.25rem;
+        }
+      }
+      .text-wrapper{
+        width: 70vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #696969;
+        .text-title{
+          width: 100%;
+          height: 2rem;
+          font-size: 16PX;
+        }
+        .text-con{
+          width: 100%;
+          height: 4rem;
+          font-size: 11PX;
+        }
+      }
+    }
+  }
+  .vip-price{
+    width: 90vw;
+    height: 8vh;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 8vh;
+    color: #5B3B1F;
+    border-radius: 2rem;
+    background-image: linear-gradient(to right, #F1E4C4, #ECC270);
+  }
+  .vip-text{
+    font-size: 12PX;
+    color: grey;
+    text-align: center;
+  }
+}

@@ -1,0 +1,19 @@
+.tab-container {
+  width: 94%;
+  height: 4.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  justify-content: space-between; }
+  .tab-container .tab-item {
+    width: 30%;
+    height: 40%;
+    background: #F4F8FB;
+    font-size: .7rem;
+    color: black;
+    border: none; }
+  .tab-container .current {
+    background: #F8CE5E;
+    color: white; }
+
+/*# sourceMappingURL=tab.css.map */

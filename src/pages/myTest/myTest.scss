@@ -1,0 +1,40 @@
+.myTest-wrapper{
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  line-height: 8vh;
+  .myTest-title{
+    width: 50vw;
+    text-align: center;
+  }
+  .my-purchase{
+    width: 50vw;
+    text-align: center;
+  }
+  .test-current{
+    width: 50vw;
+    background: #F8CE5E;
+    border-bottom-right-radius: .3rem;
+    text-align: center;
+  }
+  .purchase-current{
+    width: 50vw;
+    background: #F8CE5E;
+    border-bottom-left-radius: .3rem;
+    text-align: center;
+  }
+}
+.myTest-lists{
+  min-height: 95vh;
+  width: 95vw;
+  margin: 0 auto;
+  .myTest-end{
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #DCDCDC;
+  }
+}
