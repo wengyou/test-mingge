@@ -1,0 +1,14 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "myTest",
+  "description": "心理测试",
+  "appid": "wxb8750011082eac8d",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false,
+    "checkSiteMap": false
+  },
+  "compileType": "miniprogram"
+}
