@@ -42,7 +42,7 @@
 		"@tarojs/taro-swan": "2.0.2",
 		"@tarojs/taro-tt": "2.0.2",
 		"@tarojs/taro-weapp": "2.0.2",
-		"axios": "^0.19.2",
+		"axios": "^0.21.1",
 		"babel-runtime": "^6.26.0",
 		"fs": "0.0.1-security",
 		"nerv-devtools": "^1.5.6",
